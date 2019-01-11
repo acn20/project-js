@@ -15,7 +15,7 @@
 
             <div id="menuContainer">
                 <label for="abc">
-                    <img src="images/menu-icon.png" />
+                        <div>More races</div>
                 </label>
                 <input id="abc" type="checkbox" />
                 <ul>
@@ -37,11 +37,11 @@
             <img src="images/cat_logo.png" />
 
             <div id="logIn">
-                <p>Log in to see more cute pictures</p>
-                <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" />
-                <p></p>
-                <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" />
-                <p></p>
+                <p id="logInMessage">Log in to see more cute pictures</p>
+                <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" /></br>
+                <span></span>
+                <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" /></br>
+                <span></span>
                 <input type="submit" name="submit" value="Log in" />
             </div>
 
@@ -51,12 +51,20 @@
     <div class="background">
         <main>
 
-            <div class="galerie">
+            <div id="description-left">
+                <p>Cats are beautiful felines that help release stress.</p>
+            </div>
+
+            <div id="galerie">
                 <img src="images/cat(1).jpg" />
                 <img src="images/cat(2).jpg" />
                 <img src="images/cat(3).jpg" />
                 <img src="images/cat.jpeg" />
                 <img src="images/cat(4).jpg" />
+            </div>
+
+            <div id="description-right">
+
             </div>
 
         </main>
