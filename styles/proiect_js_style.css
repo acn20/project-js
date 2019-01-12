@@ -3,12 +3,8 @@ body {
     font-family: sans-serif;
 }
 
-.background:nth-child(2) {
+#mainContainer {
     background: #000;
-}
-
-.background:last-child {
-    background: #eee;
 }
 
 header {
@@ -18,7 +14,11 @@ header {
     text-align: center;
 }
 
-#logInMessage {
+header img {
+    width: 200px;
+}
+
+#message {
     font-weight: bold;
     color: #EF6C00;
 }
@@ -40,14 +40,28 @@ footer {
     width: 1200px;
     position: relative;
     margin: auto;
-    background: #eee;
 }
 
 #logIn {
     position: absolute;
-    right: 30px;
+    right: 0;
     top: 8px;
 }
+
+#logInMessage1 {
+    position: absolute;
+    right: 280px;
+    top: 100px;
+    color: red;
+}
+
+#logInMessage2 {
+    position: absolute;
+    right: 95px;
+    top: 100px;
+    color: red;
+}
+
 
 input {
     outline: none;
@@ -111,7 +125,7 @@ ul {
 }
 
 ul {
-    transition: all .5s;
+    transition: all .75s;
     /*opacity: 0;*/
     /*margin-left: -100px;*/
     /*margin-top: -200px;*/
@@ -148,7 +162,7 @@ label {
 }
 
 label div {
-    margin-top: 110px;
+    margin-top: 70px;
     margin-left: 30px;
 }
 

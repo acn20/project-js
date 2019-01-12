@@ -9,7 +9,7 @@ function mail() {
         x.value.lastIndexOf('.') <= x.value.indexOf('@') + 3
 
     ) {
-        document.getElementsByTagName('span')[0].innerHTML = 'E-mail incorect';
+        document.getElementsByTagName('span')[0].innerHTML = 'Incorrect email address';
     } else {
         document.getElementsByTagName('span')[0].innerHTML = '';
     }
@@ -17,7 +17,7 @@ function mail() {
 
 function pass() {
     if (y.value.length < 3) {
-        document.getElementsByTagName('span')[1].innerHTML = 'Minim 3 caractere';
+        document.getElementsByTagName('span')[1].innerHTML = 'Minimum 3 characters';
     } else {
         document.getElementsByTagName('span')[1].innerHTML = '';
     }

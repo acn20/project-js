@@ -10,12 +10,12 @@
 
 <body>
 
-    <div class="background">
+    <div id="headerContainer">
         <header>
 
             <div id="menuContainer">
                 <label for="menuToggle">
-                        <div>More breeds</div>
+                    <div>More breeds</div>
                 </label>
                 <input id="menuToggle" type="checkbox" />
                 <ul>
@@ -28,27 +28,30 @@
                     <a href="">
                         <li>Syberian</li>
                     </a>
-                    <a href="">
-                        <li>Norvegian Forest Cat</li>
-                    </a>
                 </ul>
             </div>
 
             <img src="images/cat_logo.png" />
 
             <div id="logIn">
-                <p id="logInMessage">Log in to see more cute pictures</p>
-                <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" /></br>
-                <span></span>
-                <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" /></br>
-                <span></span>
+                <p id="message">Log in to see more cute pictures</p>
+                <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" />
+                <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" />
                 <input type="submit" name="submit" value="Log in" />
+            </div>
+
+            <div id="logInMessage1">
+                <span></span>
+            </div>
+
+            <div id="logInMessage2">
+                <span></span>
             </div>
 
         </header>
     </div>
 
-    <div class="background">
+    <div id="mainContainer">
         <main>
 
             <div id="description-left">
@@ -70,7 +73,7 @@
         </main>
     </div>
 
-    <div class="background">
+    <div id="footerContainer">
         <footer>
             <a class="social-link" href="https://facebook.com" target="blank"><img src="images//facebook.jpg" /></a>
             <a class="social-link" href="https://tweeter.com" target="blank"><img src="images//tweeter.jpg" /></a>
