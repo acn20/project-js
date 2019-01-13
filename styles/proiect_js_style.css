@@ -48,7 +48,7 @@ footer {
     top: 8px;
 }
 
-#logInMessage1 {
+/*#logInMessage1 {
     position: absolute;
     right: 280px;
     top: 100px;
@@ -60,8 +60,16 @@ footer {
     right: 95px;
     top: 100px;
     color: red;
+}*/
+
+#usernameSection, #passwordSection {
+    width: 200px;
+    float: left;
 }
 
+span {
+    color: red;
+}
 
 input {
     outline: none;

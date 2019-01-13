@@ -35,17 +35,22 @@
 
             <div id="logIn">
                 <p id="message">Log in to see more cute pictures</p>
-                <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" />
-                <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" />
+
+                <div id="usernameSection">
+                    <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" />
+                    <div id="logInMessage1">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div id="passwordSection">
+                    <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" />
+                    <div id="logInMessage2">
+                        <span></span>
+                    </div>
+                </div>
+
                 <input type="submit" name="submit" value="Log in" />
-            </div>
-
-            <div id="logInMessage1">
-                <span></span>
-            </div>
-
-            <div id="logInMessage2">
-                <span></span>
             </div>
 
         </header>
