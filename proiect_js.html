@@ -1,7 +1,3 @@
-<!--
-- validare de formular (sa ne anunte ca nu am scris ce trebuie intr-un anumit camp)
-- galerie creata sau implementata (ca in ultimul curs)
-- meniu colapsibil (cu animate)-->
 <html>
 
 <head>
@@ -33,25 +29,23 @@
 
             <img src="images/cat_logo.png" />
 
-            <div id="logIn">
+            <form id="logIn">
                 <p id="message">Log in to see more cute pictures</p>
 
                 <div id="usernameSection">
                     <input class="field" type="text" name="username" placeholder="username" onkeyup="mail()" />
-                    <div id="logInMessage1">
-                        <span></span>
+                    <div class="logInMessage">
                     </div>
                 </div>
 
                 <div id="passwordSection">
                     <input class="field" type="password" name="password" placeholder="password" onkeyup="pass()" />
-                    <div id="logInMessage2">
-                        <span></span>
+                    <div class="logInMessage">
                     </div>
                 </div>
 
                 <input type="submit" name="submit" value="Log in" />
-            </div>
+            </form>
 
         </header>
     </div>
@@ -60,14 +54,14 @@
         <main>
 
             <div id="description-left">
-                <p>Cats are beautiful felines that help release stress.</p>
+                <p>Cats are beautiful felines that help relieve stress.</p>
             </div>
 
             <div id="galerie">
+                <img src="images/cat.jpeg" />
                 <img src="images/cat(1).jpg" />
                 <img src="images/cat(2).jpg" />
                 <img src="images/cat(3).jpg" />
-                <img src="images/cat.jpeg" />
                 <img src="images/cat(4).jpg" />
             </div>
 

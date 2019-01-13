@@ -45,37 +45,22 @@ footer {
 #logIn {
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 5px;
 }
-
-/*#logInMessage1 {
-    position: absolute;
-    right: 280px;
-    top: 100px;
-    color: red;
-}
-
-#logInMessage2 {
-    position: absolute;
-    right: 95px;
-    top: 100px;
-    color: red;
-}*/
 
 #usernameSection, #passwordSection {
-    width: 200px;
+    width: 190px;
     float: left;
 }
 
-span {
+.logInMessage {
     color: red;
 }
 
 input {
     outline: none;
-    margin-bottom: 10px;
-    border: 0px;
-    padding: 10px;
+    margin-bottom: 5px;
+    padding: 8px;
     background: #eee;
     border: 1px solid #ddd;
     border-radius: 3%;
@@ -91,14 +76,6 @@ input {
     padding: 65px 50px;
 }
 
-/*#description-right {
-    color: #EF6C00;
-    float: left;
-    width: 300px;
-    font-size: 30px;
-    padding: 90px 50px;
-}*/
-
 #galerie {
     width: 400px;
     height: 300px;
@@ -108,13 +85,13 @@ input {
     overflow: hidden;
 }
 
-.galerie img {
+#galerie img {
     width: 400px;
     position: absolute;
     left: -400px;
 }
 
-.galerie img:first-child {
+#galerie img:first-child {
     left: 0
 }
 
@@ -127,16 +104,12 @@ ul {
 }
 
 #menuContainer {
-    /*height: 372px;*/
     width: 250px;
     position: absolute;
 }
 
 ul {
     transition: all .75s;
-    /*opacity: 0;*/
-    /*margin-left: -100px;*/
-    /*margin-top: -200px;*/
     height: 0;
     overflow: hidden;
     width: 250px;
@@ -158,9 +131,6 @@ li, label div {
 }
 
 input:checked + ul {
-    /*opacity: 1;*/
-    /*margin-left: 0;*/
-    /*margin-top: 0;*/
     height: 244px;
 }
 
