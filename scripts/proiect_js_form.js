@@ -9,7 +9,7 @@ function mail() {
         x.value.lastIndexOf('.') <= x.value.indexOf('@') + 2
 
     ) {
-        document.getElementsByClassName('logInMessage')[0].innerHTML = 'Incorrect email address';
+        document.getElementsByClassName('logInMessage')[0].innerHTML = 'Invalid email address';
         x.setAttribute("style", "border: 1px solid #FF8A80");
     } else {
         document.getElementsByClassName('logInMessage')[0].innerHTML = '';
