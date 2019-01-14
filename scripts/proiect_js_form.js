@@ -1,7 +1,6 @@
-var mailInput = document.getElementsByClassName('field')[0];
-var passwordInput = document.getElementsByClassName('field')[1];
-
 function mail() {
+    var mailInput = document.getElementsByClassName('field')[0];
+
     if (
         mailInput.value.indexOf('@') != mailInput.value.lastIndexOf('@') ||
         mailInput.value.indexOf('@') < 2 ||
@@ -18,6 +17,8 @@ function mail() {
 }
 
 function pass() {
+    var passwordInput = document.getElementsByClassName('field')[1];
+
     if (passwordInput.value.length < 3) {
         document.getElementsByClassName('logInMessage')[1].innerHTML = 'Minimum 3 characters';
         passwordInput.setAttribute("style", "border: 1px solid #FF8A80");
