@@ -1,4 +1,4 @@
-function mail() {
+function validateMail() {
     var mailInput = document.getElementsByClassName('field')[0];
 
     if (
@@ -16,7 +16,7 @@ function mail() {
     }
 }
 
-function pass() {
+function validatePassword() {
     var passwordInput = document.getElementsByClassName('field')[1];
 
     if (passwordInput.value.length < 3) {
