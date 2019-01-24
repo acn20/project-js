@@ -94,15 +94,11 @@ input {
 }
 
 #galerie img:first-child {
-    left: 0
+    left: 0;
 }
 
 ul {
     list-style: none;
-}
-
-#menuToggle {
-    display: none
 }
 
 #menuContainer {
@@ -120,7 +116,7 @@ ul {
     padding: 0;
 }
 
-li, label div {
+li, #menu {
     width: 150px;
     height: 40px;
     background: #EF6C00;
@@ -132,16 +128,20 @@ li, label div {
     line-height: 40px;
 }
 
-input:checked + ul {
+.menu-down {
     height: 244px;
 }
 
-label {
-    text-align: left;
+#menu {
+    text-align: center;
   
 }
 
-label div {
+#menu:hover {
+    cursor: pointer;
+}
+
+#menu {
     margin-top: 70px;
     margin-left: 30px;
 }
